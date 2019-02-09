@@ -38,7 +38,7 @@ public class OrderDriver {
 //
 		
 		// 10 关联groupingComparator
-		job.setGroupingComparatorClass(OrderGroupingCompartor.class);
+		job.setGroupingComparatorClass(OrderGroupingComparator.class);
 		
 		// 7 设置分区
 		job.setPartitionerClass(OrderPatitioner.class);

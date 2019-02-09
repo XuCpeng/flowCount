@@ -3,10 +3,10 @@ package cn.medemede.ordersort;
 import org.apache.hadoop.io.WritableComparable;
 import org.apache.hadoop.io.WritableComparator;
 
-public class OrderGroupingCompartor extends WritableComparator {
+public class OrderGroupingComparator extends WritableComparator {
 
 	// 写一个空参构造
-	public OrderGroupingCompartor(){
+	public OrderGroupingComparator(){
 		super(OrderBean.class, true);
 	}
 	
