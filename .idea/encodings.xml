@@ -2,6 +2,7 @@
 <project version="4">
   <component name="Encoding" addBOMForNewFiles="with NO BOM">
     <file url="file://$PROJECT_DIR$/input/phone_data.txt" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/src/main/java/cn/medemede/main/FlowDriver.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/cn/medemede/flowcount/FlowDriver.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/cn/medemede/main/OrderDriver.java" charset="GBK" />
   </component>
 </project>

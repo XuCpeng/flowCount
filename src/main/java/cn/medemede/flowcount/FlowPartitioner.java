@@ -1,4 +1,4 @@
-package cn.medemede.main;
+package cn.medemede.flowcount;
 
 import org.apache.hadoop.io.Text;
 import org.apache.hadoop.mapreduce.Partitioner;
