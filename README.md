@@ -1,6 +1,6 @@
 # FlowCount
 
-Mapreduce Demo
+MapReduce Demo
 
 ## MapReduce编程规范
 
@@ -20,3 +20,61 @@ Mapreduce Demo
 4. Reducetask进程对每一组相同k的<k,v>组调用一次reduce()方法
 ### Driver阶段
 整个程序需要一个Drvier来进行提交，提交的是一个描述了各种必要信息的job对象
+
+## WordCount
+
+官方给出的一个统计单词个数实例，类似于HelloWorld
+
+- Bean
+- Mapper
+- Reducer
+- Driver
+
+## FlowCount
+
+统计移动用户手机流量，也是基础的对ＴＸＴ的处理
+
+- Combiner
+- 自定义Partitioner
+
+## FlowSort
+
+基于FlowCount,是对FlowCount结果的再次处理，对FlowCount的结果排序
+
+- WritableComparable
+
+## OrderSort
+
+利用排序求每个订单中最贵的商品
+
+- GroupingComparator
+
+## Table
+
+订单处理，将订单order.txt中的商品ID用pd.txt中的商品名替换
+
+- 多表合并
+- reduce端表合并（数据倾斜）
+
+## DistributedCache
+
+订单处理，将订单order.txt中的商品ID用pd.txt中的商品名替换
+
+- 多表合并
+- reduce端表合并（数据倾斜）
+- DistributedCache
+
+## WholeFile
+
+小文件处理
+
+- 自定义InputFormat
+- SequenceFileOutPutFormat
+- SequenceFile
+
+## Filter
+
+过滤日志及自定义日志输出路径
+
+- 自定义OutputFormat
+
