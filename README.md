@@ -78,3 +78,8 @@ MapReduce Demo
 
 - 自定义OutputFormat
 
+## WebLog
+
+简单的日志处理
+
+- Counter计数器
